@@ -1,0 +1,31 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to top, rgb(110, 255, 110), rgb(174, 236, 174), rgb(255, 255, 134), rgb(254, 198, 76), red);
+    text-align: center;
+
+}
+
+#dice {
+    border: 2px solid black;
+    width: 60%;
+    height: 23vh;
+    margin: auto;
+    background-color: aliceblue;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigbox {
+    height: 300px;
+    width: 20%;
+}
+
+button {
+    padding: 20px 40px;
+    margin: 30px 13vh;
+    cursor: pointer;
+}
